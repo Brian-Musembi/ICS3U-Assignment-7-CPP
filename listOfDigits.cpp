@@ -42,7 +42,6 @@ int main() {
             std::cout << "" << std::endl;
 
             if (userInt > 0) {
-                // call function
                 digitList(listOfDigits, userInt);
 
                 std::cout << "The digits that make up the number "
