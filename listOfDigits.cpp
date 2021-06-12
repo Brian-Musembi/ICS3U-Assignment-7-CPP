@@ -13,11 +13,11 @@
 int digitList(std::list<int> &listOfDigits, int userInt) {
     // this function returns the digits
 
-    // process
     while (userInt) {
         listOfDigits.push_front(userInt % 10);
-        userInt /= 10;
+        userInt = userInt / 10;
     }
+    return userInt;
 }
 
 
